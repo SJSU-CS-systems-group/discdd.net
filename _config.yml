@@ -2,4 +2,5 @@ theme: jekyll-theme-slate
 title: Disconnected Data Distribution
 description: Bringing Internet Services to Disconnected Areas of the World
 github:
+    owner_url: https://www.sjsu.edu/people/ben.reed/
     repository_url: https://github.com/SJSU-CS-systems-group/DDD
