@@ -36,7 +36,7 @@ A malicious transport can collect data that it cannot decrypt; any data changes 
 Our initial plan is to target email.
 We are modifying K9, an open-source Android mail client, and writing a simple Java STMP server to integrate with DDD.
 Unfortunately, there are many devastated areas of the world (due to man-made and natural disasters) that have populations that need to connect with families, friends, loved ones, educational institutions, businesses, aid, etc.
-We plan to try out this way of providing email to get experience with the benefits and challenges of DDD.
+We plan to try out this way of providing email in Ukraine in the near future to get experience with the benefits and challenges of DDD.
 
 # Future plans
 
