@@ -60,6 +60,27 @@ We also would like to develop more infrastructure:
 You can find our code on github.
 Please reach out if you are interested in trying it in your area.
 
+We are starting an open beta test of our apps.
+You need to install the DDD Client and DDD K9 Email apps on the end users' phones.
+The DDD Transport application will be installed on phone that is moving between the connected and disconnected areas.
+
+The DDD Transport, DDD Client, and DDD K9 will be available on the App Store,
+and the DDD Client and DDD K9 will be available for side loading (since you don't have access to app stores in disconnected areas :) )
+
+### DDD Client downloads
+
+* (Web Playstore)[https://play.google.com/store/apps/details?id=net.discdd.bundleclient]
+* (Android Playstore)[https://play.google.com/store/apps/details?id=net.discdd.bundleclient]
+* Sideload APK Available May 21, 2025
+
+### DDD K9 downloads
+
+* Available May 21, 2025
+
+### DDD Transport downloads
+
+* Available May 21, 2025
+
 # FAQ
 
 **Why Android?**
