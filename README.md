@@ -69,8 +69,8 @@ and the DDD Client and DDD K9 will be available for side loading (since you don'
 
 ### DDD Client downloads
 
-* (Web Playstore)[https://play.google.com/store/apps/details?id=net.discdd.bundleclient]
-* (Android Playstore)[https://play.google.com/store/apps/details?id=net.discdd.bundleclient]
+* [Web Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
+* [Android Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
 * Sideload APK Available May 21, 2025
 
 ### DDD K9 downloads
