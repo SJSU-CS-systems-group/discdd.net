@@ -67,19 +67,19 @@ The DDD Transport application will be installed on phone that is moving between 
 The DDD Transport, DDD Client, and DDD K9 will be available on the App Store,
 and the DDD Client and DDD K9 will be available for side loading (since you don't have access to app stores in disconnected areas :) )
 
-### DDD Client downloads
+### DDD Client downloads (install the DDD mail client as well)
 
 * [Web Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
 * [Android Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
-* Sideload APK Available May 21, 2025
+* [Sideload APK](https://github.com/SJSU-CS-systems-group/DDD/releases/latest/download/DDDClient.apk)
 
-### DDD K9 downloads
+### DDD Mail downloads (requires the DDD Client to be installed)
 
 * Available May 21, 2025
 
 ### DDD Transport downloads
 
-* Available May 21, 2025
+* [Sideload APK](https://github.com/SJSU-CS-systems-group/DDD/releases/latest/download/DDDTransport.apk)
 
 # FAQ
 
