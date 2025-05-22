@@ -69,13 +69,11 @@ and the DDD Client and DDD K9 will be available for side loading (since you don'
 
 ### DDD Client downloads (install the DDD mail client as well)
 
-* [Web Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
-* [Android Playstore](https://play.google.com/store/apps/details?id=net.discdd.bundleclient)
 * [Sideload APK](https://github.com/SJSU-CS-systems-group/DDD/releases/latest/download/DDDClient.apk)
 
-### DDD Mail downloads (requires the DDD Client to be installed)
+### DDD Mail (based on K9 mail) downloads (requires the DDD Client to be installed)
 
-* Available May 21, 2025
+* [Sideload APK](https://github.com/SJSU-CS-systems-group/DDD-thunderbird-android/releases/latest/download/ddd-mail.apk)
 
 ### DDD Transport downloads
 
