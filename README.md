@@ -14,6 +14,8 @@ Our solution is completely software-based and does not require new equipment or 
 Users simply install our Android apps on their phones.
 Our solution complements other solutions, such as long-distance Wifi and satellite internet, to bring internet services to the rest of the world.
 
+{% include youtube.html id="JLMbpiywVxQ" %}
+
 # System components
 
 We have three core components
