@@ -16,6 +16,8 @@ Our solution complements other solutions, such as long-distance Wifi and satelli
 
 {% include youtube.html id="pd1cJ4AYDPA" %}
 
+[You can start using our apps to send mail from disconnected areas right now!](wifi_setup)
+
 # System components
 
 We have three core components
