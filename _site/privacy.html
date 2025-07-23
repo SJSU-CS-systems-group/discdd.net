@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=84590166b6a9407fe2d009bee68889650dce7c4c">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Version 0.1-alpha | Disconnected Data Distribution</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Version 0.1-alpha" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Bringing Internet Services to Disconnected Areas of the World" />
+<meta property="og:description" content="Bringing Internet Services to Disconnected Areas of the World" />
+<link rel="canonical" href="http://0.0.0.0:4000/privacy.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/privacy.html" />
+<meta property="og:site_name" content="Disconnected Data Distribution" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Version 0.1-alpha" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Bringing Internet Services to Disconnected Areas of the World","headline":"Version 0.1-alpha","url":"http://0.0.0.0:4000/privacy.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/SJSU-CS-systems-group/DDD">View on GitHub</a>
+          
+
+          <h1 id="project_title">Disconnected Data Distribution</h1>
+          <h2 id="project_tagline">Bringing Internet Services to Disconnected Areas of the World</h2>
+
+          
+        <style>
+  #custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #custom-header nav {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #custom-header nav a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  #custom-header nav a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 600px) {
+    #custom-header {
+      flex-wrap: nowrap;
+    }
+    #custom-header .greeting {
+      flex: 0 0 auto;
+    }
+    #custom-header nav {
+      flex: 0 0 auto;
+      justify-content: flex-end;
+    }
+  }
+</style>
+
+<div id="custom-header">
+  <nav>
+    <a href="/">About</a>
+    <a href="/setup">Getting Started</a>
+    <a href="/faq">FAQ</a>
+    <a href="/download">Download</a>
+    <a href="/us">Who we are</a>
+  </nav>
+</div>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2 id="version-01-alpha">Version 0.1-alpha</h2>
+
+<p>DDD Client and Transport use an implementation of Double Ratchet to end-to-end encrypt messages between the Clients and the Server.
+This means Transports will not be able to see the data sent between client and server.</p>
+
+<p>We use WiFi Direct to transfer data and Android does expose WiFi Direct name of the phone.
+However, we do not collect this information.
+The names displayed when exchanging data, and logged in the debug logs of the phone.
+Usually, the logs will be deleted, but in the event of a crash the logs will be uploaded to the server for analysis.</p>
+
+<p>The clients tell the server the transport IDs that they have seen so that the server can know which transports can be used to send data to which client,
+but this transport ID is a randomly generated number and is not connected to any personal identifiable information.</p>
+
+<p>When used with the email application, emails in transit are encrypted from the client to the server, but are stored in the clear on the server.
+They are deleted once the emails have been transmitted.
+The server only inspects the senders and receivers of the emails to route them.
+We only share emails with the recipient servers.
+We will comply with government orders when required.
+We encourage our users to additionally employ the end-to-end encryption features of the email clients they use.</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">Disconnected Data Distribution maintained by <a href="https://www.sjsu.edu/people/ben.reed/">SJSU-CS-systems-group</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
