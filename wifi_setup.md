@@ -1,4 +1,4 @@
-# Setting up to use DDD with transport and client
+# Setting up to use DDD with transport and client over WiFi
 
 DDD uses phones that move between connected and disconnected areas as transports.
 These transports are not trusted: they can be malicious and try and alter, read data they carry, and discard data.
