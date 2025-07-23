@@ -1,0 +1,55 @@
+<style>
+  #custom-header {
+    background: #2c3e50;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #custom-header .greeting {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    flex: 1 1 100%;
+  }
+  #custom-header nav {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #custom-header nav a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  #custom-header nav a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 600px) {
+    #custom-header {
+      flex-wrap: nowrap;
+    }
+    #custom-header .greeting {
+      flex: 0 0 auto;
+    }
+    #custom-header nav {
+      flex: 0 0 auto;
+      justify-content: flex-end;
+    }
+  }
+</style>
+
+<div id="custom-header">
+  <div class="greeting">DDD: Disconnected Data Distribution</div>
+  <nav>
+    <a href="/">About</a>
+    <a href="/setup">Getting Started</a>
+    <a href="/faq">FAQ</a>
+    <a href="/us">Who we are</a>
+  </nav>
+</div>
