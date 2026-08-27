@@ -1,5 +1,3 @@
-<span style="color:red">***!!!(April 14, 2026) Due to a key leak, we had to change the Server keys. you must reinstall client apps to get the new keys!!!***</span>
-
 # The Problem
 
 Much of the world still doesn't have access to the internet.
